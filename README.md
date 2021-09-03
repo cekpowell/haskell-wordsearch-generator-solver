@@ -2,14 +2,29 @@
 ## COMP2209: Programming III
 ---
 
+## Contents
+
+- [Introduction](#introduction)
+  * [Task Description](#task-description)
+- [Generator](#generator)
+  * [Usage](#usage)
+  * [Output](#output)
+- [Solver](#solver)
+  * [Usage](#usage-1)
+  * [Output](#output-1)
+
+---
+
+## Introduction
+
 ### Task Description
 - Write programs that can be used for the generation and solving of wordsearch puzzles using Haskell.
 
 ---
 
-### Generator
+## Generator
 
-#### Usage
+### Usage
 
 - Contained in `Generator/build` is a `generator` executable which can be used to **generate wordsearches**.
 
@@ -39,7 +54,7 @@
     cabal run generator <word list> <density>
     ```
 
-#### Output
+### Output
 
 - The produced wordsearch will:
   - Contain each word exactly once, at a random position and orientation.
@@ -98,9 +113,9 @@
 
 ---
 
-### Solver
+## Solver
 
-#### Usage
+### Usage
 
 - Contained in `Solver/build` is a `solver` executable which can be used to **solve** **wordsearches**.
 
@@ -129,7 +144,7 @@
   - ```
     cabal run solver <word-list> <grid-list>
     ```
-#### Output
+### Output
 
 - The Solver uses the Haskell `Maybe` monad to output the results of the search for the provided words.
 
