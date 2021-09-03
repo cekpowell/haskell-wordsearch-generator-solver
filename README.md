@@ -4,14 +4,14 @@
 
 ## Contents
 
-- [Introduction](#introduction)
-  * [Task Description](#task-description)
-- [Generator](#generator)
-  * [Usage](#usage)
-  * [Output](#output)
-- [Solver](#solver)
-  * [Usage](#usage-1)
-  * [Output](#output-1)
+- **[Introduction](#introduction)**
+  * **[Task Description](#task-description)**
+- **[Generator](#generator)**
+  * **[Usage](#usage)**
+  * **[Output](#output)**
+- **[Solver](#solver)**
+  * **[Usage](#usage-1)**
+  * **[Output](#output-1)**
 
 ---
 
